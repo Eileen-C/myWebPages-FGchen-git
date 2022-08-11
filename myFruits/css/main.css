@@ -50,6 +50,7 @@ body {
     transform: translate(-50%, -55%);
     text-align: center;
     cursor: default;
+    padding-top: 30px;
   }
   .description h1 {
     font-weight: 900;

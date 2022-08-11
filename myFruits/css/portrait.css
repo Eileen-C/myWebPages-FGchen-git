@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+    .description h1 {
+        padding-top: 15px;
+        font-size: 1.3rem;
+      }
+      .description p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+      }
+}
