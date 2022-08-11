@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#28a745;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end; 
+    /* 讓導覽列排至尾部(end) */
+  }
+
+  .header {
+    background-image: url('../images/header-background-fresh-fruits.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .description {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    cursor: default;
+  }
+  .description h1 {
+    font-weight: 900;
+    color: #28a745;
+  }
+  .description p {
+    font-weight: normal;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
